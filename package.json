@@ -1,24 +1,17 @@
 {
   "name": "word-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "Converts a specific type of word document into an excel file.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Marius Lazar",
+  "license": "MIT",
   "dependencies": {
-    "any-text": "^1.1.0",
     "cheerio": "^1.0.0-rc.3",
-    "docx-parser": "^0.2.1",
-    "docx-template": "^2.2.5",
-    "docx4js": "^3.2.2",
-    "export-from-json": "^1.3.3",
     "json2xls": "^0.1.2",
     "mammoth": "^1.4.9",
-    "pdf2json": "^1.2.0",
-    "word-extractor": "^0.3.0",
     "yargs": "^15.4.1"
   }
 }
